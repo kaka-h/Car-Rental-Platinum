@@ -2,7 +2,7 @@ import ProtectedRoute from "./components/hoc/Protected.Route";
 import AddCar from "./pages/AddCar";
 import Edit from "./pages/EditCar/Edit";
 import Dashboard from "./pages/Dasboard";
-import SignIn from "./pages/SignIn";
+import Signin from "./pages/SignIn";
 import Cars from "./pages/Cars/Cars";
 
 export const routes = [
@@ -16,7 +16,7 @@ export const routes = [
   },
   {
     path: "/admin/login",
-    element: <SignIn />,
+    element: <Signin />,
   },
   {
     path: "/admin/dashboard",
