@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SignIn from "../../components/signin";
-import SignUp from "../../components/signup";
+import Register from "../../components/register";
+import Login from "../../components/login";
 
 const Registerpage = () => {
   const [isLogged, setIsLogged] = useState(false);
@@ -10,7 +10,7 @@ const Registerpage = () => {
 
   return (
     <div>
-      {!isLogged ? <SignIn func={pull_data} /> : <SignUp func={pull_data} />}
+      {!isLogged ? <Login func={pull_data} /> : <Register func={pull_data} />}
     </div>
   );
 };
