@@ -3,7 +3,7 @@ import "./login.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const Signin = () => {
+const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -93,4 +93,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default Login;

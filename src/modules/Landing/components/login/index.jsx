@@ -13,7 +13,7 @@ import {
   isLoading,
 } from "../../features/detail/detailSlice";
 
-const SignIn = (props) => {
+const Login = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const state = useSelector((state) => state.detail);
@@ -144,4 +144,4 @@ const SignIn = (props) => {
   );
 };
 
-export default SignIn;
+export default Login;

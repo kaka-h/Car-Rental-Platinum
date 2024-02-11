@@ -10,7 +10,7 @@ import {
 } from "../../features/detail/detailSlice";
 import classNames from "classnames";
 
-const SignUp = (props) => {
+const Register = (props) => {
   const state = useSelector((state) => state.detail);
   const { loading } = useSelector((state) => state.detail);
 
@@ -138,4 +138,4 @@ const SignUp = (props) => {
   );
 };
 
-export default SignUp;
+export default Register;

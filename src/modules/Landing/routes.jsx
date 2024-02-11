@@ -1,7 +1,7 @@
 import DetailCarPage from "./pages/DetailCarPage";
 import LandingPage from "./pages/LandingPage";
 import NotFound from "./pages/NotFound";
-import Register from "./pages/register";
+import Registerpage from "./pages/registerpage";
 import SearchResult from "./pages/SearchResult";
 import Payment from "./pages/Payment";
 import TransferPages from "./pages/TransferPages";
@@ -42,6 +42,6 @@ export const routes = [
   },
   {
     path: "/register",
-    element: <Register />,
+    element: <Registerpage />,
   },
 ];
