@@ -1,0 +1,44 @@
+    .notfound {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #3b3d41;
+    }
+    
+    .notfound-logo {
+        height: 20vmin;
+        background-color: rgb(114, 166, 250);
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .notfound-header {
+        background-color: #3b3d41;
+        padding: 20px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+        .notfound-logo {
+        animation: notfound-logo-spin infinite 20s linear;
+        }
+    }
+    
+    @keyframes notfound-logo-spin {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(360deg);
+        }
+    }
+    

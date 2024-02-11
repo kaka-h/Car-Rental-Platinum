@@ -1,0 +1,106 @@
+.left {
+  background: url("/src/modules/Admin/assets/images/login-image.png"),
+    lightgray 50% / cover no-repeat;
+}
+
+.gambar {
+  width: 100%;
+}
+
+.gambar img {
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.right input {
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  width: 350px;
+  height: 38px;
+  color: slategray;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0rem 1rem;
+}
+
+.right input::placeholder {
+  color: #a5a5a5;
+}
+
+.right .logo {
+  width: 100px;
+  height: 34px;
+  background-color: #cfd4ed;
+}
+
+.right h1 {
+  color: #000;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.right p {
+  display: flex;
+  width: 370px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  border-radius: 5px;
+  background: rgba(208, 12, 26, 0.1);
+  color: #d00c1a;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.right label {
+  color: #222;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.right .tombol-login-admin {
+  width: 350px;
+  margin-top: 30px;
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background-color: #0d28a6;
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+}
+
+.right .tombol-login-admin:disabled {
+  width: 350px;
+  margin-top: 30px;
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background-color: rgb(201, 209, 216);
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 90% !important;
+  height: 326px;
+  background-color: #0d28a6;
+  color: white;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.banner .text {
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.banner .text-2 {
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  width: 468px;
+  margin-left: 60px;
+}
+
+.banner .btn-banner {
+  text-decoration: none;
+  border: none;
+  margin-top: 25px;
+  border-radius: 2px;
+  background-color: #5cb85f;
+  padding: 10px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+
+.banner .btn-banner:hover {
+  color: white;
+  /* transform: scale(1.1); */
+  background-color: #026402;
+}
+
+.banner .btn-banner a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .banner {
+    height: 480px;
+  }
+
+  .banner .text {
+    width: 300px;
+    text-align: center;
+  }
+
+  .banner .text-2 {
+    font-size: 15px;
+    width: 210px;
+    margin: auto;
+  }
+
+  .banner .btn-banner {
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 30px;
+  }
+}

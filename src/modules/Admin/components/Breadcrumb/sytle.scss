@@ -1,0 +1,20 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--Neutral-01, #000);
+  font-family: Arial;
+}
+
+.prev-link {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.active-link {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+}

@@ -1,0 +1,71 @@
+.desc-transfer-bank-bni {
+    display: flex;
+}
+
+.wrapper-desc-bank-bni {
+    width: 110px;
+    margin-right: 20px;
+}
+
+.desc-bank-bni,
+.desc-bank-bni-IB,
+.desc-bank-bni-klik,
+.desc-bank-m-bni {
+    width: 500px;
+    color: #8A8A8A;
+    font-size: 13px;
+}
+
+.desc-bank-bni-IB {
+    position: relative;
+    right: 390px;
+}
+
+.desc-bank-bni-klik {
+    position: relative;
+    right: 260px;
+}
+
+.desc-bank-m-bni {
+    position: relative;
+    right: 130px;
+}
+
+.title-desc-bank-bni {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.title-desc-bank-bni:hover {
+    font-weight: bold;
+}
+
+.title-desc-bank-bni:active {
+    font-weight: bold;
+}
+
+.wrapper-title-desc-bank-bni {
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    height: 50px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.wrapper-title-desc-bank-bni:active {
+    border-bottom: 1px solid #5CB85F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.wrapper-title-desc-bank-bni:hover {
+    font-weight: bold;
+    border-bottom: 1px solid #5CB85F;
+}
+

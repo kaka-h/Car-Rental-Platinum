@@ -1,0 +1,170 @@
+.list-car2 {
+    color: var(--Neutral-01, #000);
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.tombol {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    gap: 12px;
+
+    .button1 {
+        display: inline-flex;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 2px;
+        border: 1px solid var(--Primary-DarkBlue-04, #0d28a6);
+        background: var(--Neutral-10, #fff);
+        color: var(--Primary-DarkBlue-04, #0d28a6);
+        font-family: Arial;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .button2 {
+        display: inline-flex;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 2px;
+        background: var(--Primary-DarkBlue-04, #0d28a6);
+        color: var(--Neutral-10, #fff);
+        font-family: Arial;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        border: none;
+    }
+}
+
+.form {
+    display: flex;
+    width: 98%;
+    padding: 16px;
+    margin-top: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: #fff;
+
+    span {
+        color: var(--Allert-Danger, #fa2c5a);
+        font-family: Arial;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .input-name {
+        display: flex;
+        width: 494px;
+        align-items: center;
+        gap: 8px;
+
+        p {
+            color: var(--Neutral-04, #3c3c3c);
+            font-family: Arial;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            width: 147px;
+            flex-shrink: 0;
+        }
+
+        input {
+            display: flex;
+            padding: 9px 12px;
+            align-items: center;
+            gap: 8px;
+            align-self: stretch;
+            width: 100%;
+            border-radius: 2px;
+            border: 1px solid var(--Neutral-02, #d0d0d0);
+            background: var(--Neutral-01, #fff);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 18px;
+        }
+
+        select {
+            display: flex;
+            padding: 9px 12px;
+            align-items: center;
+            gap: 8px;
+            align-self: stretch;
+            width: 100%;
+            border-radius: 2px;
+            border: 1px solid var(--Neutral-02, #d0d0d0);
+            background: var(--Neutral-01, #fff);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 18px;
+        }
+    }
+
+    .input-foto {
+        display: flex;
+        width: 494px;
+        align-items: flex-start;
+        gap: 8px;
+
+        p {
+            color: var(--Neutral-04, #3c3c3c);
+            font-family: Arial;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            width: 147px;
+            flex-shrink: 0;
+        }
+
+        .inner-foto {
+            width: 100%;
+
+            input {
+                display: flex;
+                padding: 9px 12px;
+                align-items: center;
+                gap: 8px;
+                align-self: stretch;
+                width: 100%;
+                border-radius: 2px;
+                border: 1px solid var(--Neutral-02, #d0d0d0);
+                background: var(--Neutral-01, #fff);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 18px;
+            }
+
+            p {
+                color: var(--Neutral-03, #8a8a8a);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 14px;
+            }
+        }
+    }
+}

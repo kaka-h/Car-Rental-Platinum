@@ -1,0 +1,70 @@
+.desc-transfer-bank {
+    display: flex;
+}
+
+.wrapper-desc-bank {
+    width: 110px;
+    margin-right: 20px;
+}
+
+.desc-bank-atm-bca,
+.desc-bank-IB,
+.desc-bank-bca-klik,
+.desc-bank-m-bca {
+    width: 500px;
+    color: #8A8A8A;
+    font-size: 13px;
+}
+
+.desc-bank-IB {
+    position: relative;
+    right: 390px;
+}
+
+.desc-bank-bca-klik {
+    position: relative;
+    right: 260px;
+}
+
+.desc-bank-m-bca {
+    position: relative;
+    right: 130px;
+}
+
+.title-desc-bank {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.title-desc-bank:hover {
+    font-weight: bold;
+}
+
+.title-desc-bank:active {
+    font-weight: bold;
+}
+
+.wrapper-title-desc-bank {
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    height: 50px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.wrapper-title-desc-bank:active {
+    border-bottom: 1px solid #5CB85F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.wrapper-title-desc-bank:hover {
+    font-weight: bold;
+}
+

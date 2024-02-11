@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.testimonial {
+  max-width: 1440px;
+  margin: auto;
+  content: "";
+  padding: 100px 16px 0px !important;
+}
+
+.testi-p1 {
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+}
+
+.testi-p2 {
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testi-wrap {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* .list-testi {
+  display: flex;
+  justify-content: center;
+} */
+
+.swiper {
+  height: 350px;
+  padding-top: 2px !important;
+  overflow: visible;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: white;
+  color: black !important;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+  border: 1px solid #c4c4c4;
+  /*bottom: 10px !important;
+  */
+  top: 330px !important;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+}
+
+.swiper-button-next {
+  left: 725px !important;
+}
+.swiper-button-prev {
+  left: 665px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 14px !important;
+  font-weight: 900;
+
+  /* position: relative; */
+}
+
+.swiper-button-prev:active,
+.swiper-button-next:active {
+  background-color: #5cb85f;
+  color: white !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: olivedrab;
+}
+
+.testi-card {
+  width: 619px !important;
+  height: 270px !important;
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 0px #0000004d;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testi-card .testi-img {
+  /* width: 80px;
+  height: 80px;
+  position: relative;
+  left: 50px; */
+  padding: 95px 46px !important;
+}
+
+.testi-card .testi-text {
+  position: relative;
+  right: 30px;
+  gap: 8px;
+}
+
+.testi-card .testi-desc {
+  width: 415px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  margin: 0;
+}
+
+.testi-card .testi-name {
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+}
+
+.testi-card .testi-star {
+  color: #f9cc00;
+  font-size: 16px;
+  align-self: center;
+}
+
+.testi-prev,
+.testi-next {
+  filter: invert(100%);
+}
+
+@media (max-width: 576px) {
+  .swiper {
+    position: relative;
+    height: 460px;
+  }
+
+  .list-testy {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    display: flex !important;
+    width: 98% !important;
+    height: 390px !important;
+    padding: 40px 32px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 8px;
+  }
+
+  .testi-card .testi-img {
+    padding: 0 !important;
+  }
+
+  .testimonial .testi-desc {
+    width: 240px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    margin: auto;
+    padding-top: 24px !important;
+    text-align: start;
+  }
+
+  .testi-name {
+    margin: 0 !important;
+    /* text-align: start; */
+  }
+
+  .testimonial .testi-text {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    right: 0;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute !important;
+    background-color: white;
+    color: black !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    top: 97% !important;
+  }
+
+  .swiper-button-next {
+    left: 54% !important;
+  }
+  .swiper-button-prev {
+    left: 38% !important;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 14px !important;
+    font-weight: 900;
+
+    /* position: relative; */
+  }
+}

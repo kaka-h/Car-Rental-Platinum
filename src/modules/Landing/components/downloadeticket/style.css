@@ -1,0 +1,43 @@
+.box-eticket {
+    width: 605px;
+    height: 350px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.desc-box-eticket {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.wrapper-unduh-eticket {
+    cursor: pointer;
+    width: 97px;
+    height: 36px;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #0D28A6;
+}
+
+.btn-download-eticket {
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    color: #0D28A6;
+}
+
+.wrapper-img-eticket {
+    width: 560px;
+    height: 230px;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    border: 2px dashed #D0D0D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}

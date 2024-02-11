@@ -1,0 +1,70 @@
+.desc-transfer-bank-mandiri {
+    display: flex;
+}
+
+.wrapper-desc-bank-mandiri {
+    width: 110px;
+    margin-right: 20px;
+}
+
+.desc-bank-mandiri,
+.desc-bank-mandiri-IB,
+.desc-bank-mandiri-klik,
+.desc-bank-m-mandiri {
+    width: 500px;
+    color: #8A8A8A;
+    font-size: 13px;
+}
+
+.desc-bank-mandiri-IB {
+    position: relative;
+    right: 390px;
+}
+
+.desc-bank-mandiri-klik {
+    position: relative;
+    right: 260px;
+}
+
+.desc-bank-m-mandiri {
+    position: relative;
+    right: 130px;
+}
+
+.title-desc-bank-mandiri {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.title-desc-bank-mandiri:hover {
+    font-weight: bold;
+}
+
+.title-desc-bank-mandiri:active {
+    font-weight: bold;
+}
+
+.wrapper-title-desc-bank-mandiri {
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    height: 50px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.wrapper-title-desc-bank-mandiri:active {
+    border-bottom: 1px solid #5CB85F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.wrapper-title-desc-bank-mandiri:hover {
+    font-weight: bold;
+}
+

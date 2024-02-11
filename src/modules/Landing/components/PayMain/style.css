@@ -1,0 +1,54 @@
+.paymain {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.paymain-right {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.20);
+}
+
+.chevdown-text-left {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.chevdown-text-right-1 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.chevdown-text-right-2 {
+    color: #5CB85F;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.btn-paymain-right {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    padding: 10px 158px;
+    text-align: center;
+    position: relative;
+    bottom: 12px;
+}
+
+
+.btn-paymain-right.disabled {
+    pointer-events: none;
+    opacity: 0.5; 
+}
+
+.totalprice-payment {
+    font-weight: 700;
+    position: absolute;
+    right: 220px;
+}

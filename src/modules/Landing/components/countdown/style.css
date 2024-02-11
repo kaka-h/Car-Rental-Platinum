@@ -1,0 +1,15 @@
+.countdown-wrapper {
+    color: black;
+    padding: 5px; 
+    gap: 5px;
+    display: flex;
+}  
+
+.countdown-text {
+    background-color: #FA2C5A;
+    color: white;
+    width: 21px;
+    height: 26px;
+    border-radius: 2px;
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+.transfer-right {
+    height: 148px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 405px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.20);
+}
+
+.transfer-right-confirm {
+    height: 500px;
+}
+
+.text-transfer-right {
+    font-size: 13px;
+    letter-spacing: -0.5px;
+}
+
+.btn-transfer-right-1 {
+    width: 358px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.btn-transfer-right-2 {
+    width: 358px;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    border: none;
+    color: white;
+}
+
+.img-transfer {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.wrapper-img-slip-transfer {
+    background-color: #EEEEEE;
+    width: 296px;
+    height: 162px;
+    border: 2px dashed #D0D0D0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 35px;
+    position: relative;
+}
+
+.img-slip-transfer {
+    height: 162px;
+    position: absolute;
+}
+
+.btn-transfer-right {
+    width: 357px;
+    height: 36px;
+    color: white;
+    background-color: #5CB85F;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}

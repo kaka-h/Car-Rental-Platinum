@@ -1,0 +1,49 @@
+@mixin sidebar-detail-padding {
+  padding-top: 6rem;
+  padding-left: 6.5rem;
+}
+
+.main-content {
+  .sidebar-detail-empty {
+    padding-left: 5rem;
+  }
+
+  .sidebar-detail {
+    min-width: 20rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 100vh;
+    z-index: 0;
+
+    .title {
+      @include sidebar-detail-padding;
+      color: var(--Neutral-03, #8A8A8A);
+      font-family: Arial;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+
+    .content-title {
+      @include sidebar-detail-padding;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background: var(--Primary-DarkBlue-01, #CFD4ED);
+      cursor: pointer;
+
+      p {
+        color: var(--Neutral-05, #151515);
+        font-family: Arial;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 142.857% */
+      }
+    }
+  }
+}

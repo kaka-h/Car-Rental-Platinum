@@ -1,0 +1,163 @@
+.register {
+  max-width: 1920px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* LOGIN AREA CODE START  */
+
+.register .sign-page .title {
+  color: black;
+}
+.register .sign-page .login-area {
+  /* width: auto; */
+  padding: 161px 175px 162px !important;
+}
+
+.register .sign-page .login-area .btn {
+  padding: 0 !important;
+}
+
+.register .sign-page .login-area img {
+  margin: 0;
+  width: 100px;
+  height: auto;
+  background: var(--primary-dark-blue-01, #cfd4ed);
+}
+
+.register .sign-page .btn,
+.register .sign-page .btn:active {
+  border: none;
+}
+
+.register .sign-page .login-area h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  margin: 32px 0;
+}
+
+.register .sign-page .login-area label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.register .sign-page input::placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  /* padding: 10px 0 10.25px 15px !important; */
+  box-sizing: border-box;
+}
+
+.register .sign-page button {
+  margin-top: 31.75px;
+  width: 100%;
+  background-color: #0d28a6;
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  /*142.857%*/
+  padding: 8px 12px !important ;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 2px;
+  border: none;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+}
+
+.register .sign-page button:hover {
+  background-color: #041665;
+}
+
+.register .sign-page .row .disabled {
+  background-color: #0d29a671;
+}
+
+.register .sign-page a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h6 {
+  font-size: 0.9rem !important;
+}
+
+.register .sign-page .login-area span {
+  cursor: pointer;
+  color: #0d28a6;
+  font-size: 14px;
+  font-weight: 700 !important;
+  line-height: 20px; /* 142.857% */
+  text-decoration-line: underline;
+}
+
+/* END OF LOGIN AREA CODE  */
+
+.register .bg {
+  display: flex;
+  flex-direction: column;
+  background-color: #0d28a6;
+  height: 100vh;
+  /* padding: 0 0 0 115px; */
+  overflow: hidden;
+  /* width: 50%; */
+}
+
+.register .bg .ms-5 {
+  margin-left: 115px !important;
+}
+
+.register .bg h1 {
+  margin-top: 30px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 72px */
+  opacity: 0.7;
+  /* padding-top: 30px; */
+}
+
+.register .bg .img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/image/landing-page-desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  /* border: 1px solid black; */
+}
+
+.register .sign-page .row .disabled,
+.register .sign-page .row .disabled_loading {
+  background-color: #0d29a671;
+}
+
+@media screen and (max-width: 1200px) {
+  .register .sign-page .login-area {
+    padding: 29px 24px !important;
+    box-sizing: border-box;
+  }
+
+  .register,
+  .register .sign-page,
+  .register .container-fluid,
+  .register .row,
+  .register .login-area {
+    height: 640px;
+  }
+
+  .bg {
+    display: none;
+  }
+}
